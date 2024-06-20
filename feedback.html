@@ -5,48 +5,58 @@
     <meta name="viewport" content="width=W, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @media(max-width:400px)
+        {
+            textarea{
+               width:1200px;
+              margin-left: 10%;
+              background-image: url(mother_teresa.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            }
+            html{
+            background-image: url(mother_teresa.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 40% 40%;
+        }
+       
+        .form-control{
+                 width:30px;
+                 height:500px;
+        }
+        }
+        .form-control{
+                 width:900px;
+                 height:700px;
+
+        }
         html{
             background-image: url(mother_teresa.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
         }
-        .o{
-            font-size: 20px;
-            color:whitesmoke;
-            margin-top:1.5%;
-            margin-left: 50%;
-            position: fixed;
-            background-image: url(mother_teresa.jpg);
+        textarea{
+            color:white;
+               width:1200px;
+              margin-left: 60%;
+              background-image: url(mother_teresa.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
-            
-        }
-       
-        h2{
-            color:darkkhaki;
-            margin-left: 50%;
-            font-size:40px;
-        }
-        .ooo{
-            color:black;
-            background-color:burlywood;
-            margin-top:30%;
-            margin-left:72.5%;
-            font-size: 14px;
-            border-width: 2px;
-            width: 100px;
-            border-radius: 30%;
-               height:53px;
-        }
+            }
+      
+        
       
     </style>
 </head>
 <body>
-   
-    <h2 class="oo">FEEDBACK:</h2>
-    <textarea rows="14" cols="50" class="o">  PLEASE SHARE YOUR EXPERIENCE WITH US...... </textarea>
-    <button class="ooo"><h4><bold>SUBMIT</bold></h4></button>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a Feedback here" id="floatingTextarea2" style="height:500px"   style="width:1500px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
+      </div>
+
 </body>
 </html>

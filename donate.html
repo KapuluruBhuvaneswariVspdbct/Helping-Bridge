@@ -5,407 +5,247 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
    
-    <style>
-       .hod{
-    position:absolute;
-    margin-top:140px;
-    margin-left: -13px;
-    margin-right: 5px;
-   text-align:center;
-    color:ivory;
-    font-size: 20px;
-    background-color:rgb(1, 73, 97);
-    width:1221px;
-    font-size: 50px;
-    font-family:fantasy;
-    z-index: 100;
-    line-height:20px;
-}
-.donateplease{
-    margin-left: 30px;
-  
-    color:rgb(255, 218, 10);
-}
-
-
-.donfood{
-    position:absolute;
-    margin-top: 300px;
-    margin-left:50px;
-   
-
-}
-.donfood p{
-    font-size: 30px;
-    font-family:fantasy;
-    text-align: center;
-    color:white;
-}    
-.money{
-    position:absolute;
-    margin-top: 300px;
-    z-index: 100;
-
-    margin-left:450px;
-}
-.money p{
-    font-size: 30px;
-    font-family:fantasy;
-    text-align: center;
-    color:white;
-}
-.grocery{
-    position:absolute;
-    margin-top:300px;
-    margin-left: 850px;
-
-    z-index: 100;
-
-}
-.grocery p{
-    font-size: 30px;
-    font-family:fantasy;
-    text-align: center;
-    color:white;
+    <style>.my-name{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:#DC5F00;
+    }
+    #pic-back{
+      text-align: left;
+      justify-content: left;
+      width:800px;
+      border-style: ridge;
+      
+      border-width: 2px;
+    }
+    .card-title1{
+         color:black;
+         font-weight: bolder;
+    }
+    .card-body1{
+      background-color: #EEEEEE;
+      text-align:center;
+    }
+    .my-intro{
     
-    z-index: 10000;
-}
-.clothes{
-    position:absolute;
- 
-    z-index: 100;
-    margin-top:800px;
-    margin-left: 50px;
-}
-.clothes p{
-font-size: 30px;
-font-family:fantasy;
-text-align: center;
-color:white;
-}
-.child{
-    position:absolute;
-    margin-top: 800px;
-    margin-left:450px;
-   
-
-}
-.child p{
-    font-size: 30px;
-    font-family:fantasy;
-    text-align: center;
-    color:white;
-}    
-.education{
-    position:absolute;
-    margin-top: 800px;
-    z-index: 100;
-
-    margin-left:850px;
-}
-.education p{
-    font-size: 30px;
-    font-family:fantasy;
-    text-align: center;
-    color:white;
-}
-.stationary{
-    position:absolute;
-    margin-top:1300px;
-    margin-left: 50px;
-
-    z-index: 10000;
-
-}
-.stationary p{
-    font-size: 30px;
-    font-family:fantasy;
-    text-align: center;
-    color:white;
+      
+        text-align:start;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    #my-pic{
+      background-color: #d1d3d8;
+      color: #373A40;
+      border-width:2px;
+      border-style: ridge;
+      border-color:black;
+    }
     
-    z-index: 10000;
-}
-.charity{
-    position:absolute;
- 
-    z-index: 100;
-    margin-top:1300px;
-    margin-left: 450px;
-}
-.charity p{
-font-size: 30px;
-font-family:fantasy;
-text-align: center;
-color:white;
-}
-.birthday{
-    position:absolute;
- 
-    z-index: 100;
-    margin-top:1300px;
-    margin-left: 850px;
-}
-.birthday p{
-font-size: 30px;
-font-family:fantasy;
-text-align: center;
-color:white;
-}
-
-.header{  
-    z-index:1000;
-  margin-top: -8px;
-  margin-left: -10px;
-  height: 100px;
-  width:1500px;
-  background-color: white;
-  position: fixed;
-  border:0px;
-
-}
-.logo{    z-index:1000;
-  margin-top: -2px;
-  margin-left: -10px;
-  height: 100px;
-  background-color: rgb(1, 73, 97);;
-  position: fixed;
- width:310px;
-}
-.homebutton{  position:fixed;
-  width:40px;
-  background-color:white;
- border: 0px;
- border-style: none;
- margin-left:730px;
- margin-top:20px;
- font-size: 22px;
-  COLOR:rgb(12, 247, 12);
-}
-.aboutusbutton{ 
-  position:fixed;
-  width:120px;
-  height:20px;
-  background-color:white;
- border: 0px;
- margin-left:430px;
- margin-top:20px;
-  font-size: 19.5px;
-  COLOR:blue;
-}
-.activitiesbutton{ 
-  position:fixed;
-  width:90px;
- background-color:white;
- border: 0px;
- margin-left:535px;
- margin-top:20px;
-  font-size:19.5px;
-  COLOR:rgb(252, 85, 85);
-}
-.mediabutton{ 
-  position:fixed;
-  width:45px;
-
-  background-color:white;
- border: 0px;
- margin-left:640px;
- margin-top:21px;
-  font-size: 26px;
-  COLOR:orange;
-}
-.contactbutton{ 
-  position:fixed;
-  width:65px;
-
-  background-color:white;
- border: 0px;
- margin-left:700px;
- margin-top:21px;
-  font-size: 19.5px;
-  COLOR:rgb(0, 255, 13);
-}
-
-
-.loginbutton{ 
-  position:fixed;
-  width:50px;
-
-  background-color:white;
- border: 0px;
- margin-left:801px;
- margin-top:20px;
-  font-size:22px;
-  COLOR:blue;
-}
-.loginbasic{
-  height:300px;
-  width:400px;
-margin-left:30%;
-  margin-top:8%;
-  position:fixed;
-
-  color:white;
-  
-  text-align: center;
-  
-}
-.loginback{
- 
-  text-align:center;
-    float: inherit;
-   font-size: 20px;
-   width: 500px;
-  
-}
-
-
-.loginbackback{
-  border-width: 0px;
-  color:white;
-}
-
-.logbut{
-    width:100px;
-    height:30px;
-    background-color: rgb(129, 221, 252);
-    color:black;
-  }
-
-
-.signupbutton{ 
-  position:fixed;
-  width:100px;
-
-  background-color:white;
-  color:rgb(252, 85, 85);
-
-  border:0px;
-font-size: 22px;
-  margin-left:870px;
-  margin-top:20px;
-}
-.signupbasic{
-  height:400px;
-  width:500px;
-margin-left:30%;
-  margin-top:8%;
-  position:fixed;
-
-
-  color:white;
-  text-align: center;
-
-}
-
-.signupback{
- 
-  text-align:center;
-    float: inherit;
-   font-size: 19.5px;
-   width: 500px;
-  
-}
-.signupbackback{
-   border-width: 0px;
-   color:white;
-}
-.signbut{
-    width:100px;
-    height:30px;
-    background-color: rgb(129, 221, 252);
-    color:black;
-  }
-.feedbackbutton{ 
-  position:fixed;
-  width:90px;
-  
-  background-color:white;
-  color:orange;
-  margin-left:970px;
-  border:0px;
-  font-size: 22px;
-  margin-top:20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .join{
+      font-family:cursive;
+      color:darkslateblue;
+    }
+    
+    #helping-bridge{
+        
+     
+    font-family:lilita one;
+    
+       font-weight: bolder;
+        color:#DC5F00;
+       
+      
+        text-align: center;
+    }
+    
+    .donate{
+        text-align: center;
+        color:rgb(133, 245, 248);
+        font-family:lilita one;
+        background-color: rgb(9, 76, 96);
+    }
+    .container{
+        background-color:#686D76;
+    }
+    .card-body{
+        background-color:#373A40;
+       
+      }
+     
+    .card-title{
+       background-color:#DC5F00;
+      color:white;
+    }
+    .card-text{
+      color:white;
+    }
+    .container-fluid{
+      background-color:EEEEEE;
+    }
+    
+    
+    
+    .loginbasic{
+      height:300px;
+      width:400px;
+    margin-left:30%;
+      margin-top:8%;
+      position:fixed;
+    
+      color:white;
+      
+      text-align: center;
+      
+    }
+    .loginback{
+     
+      text-align:center;
+        float: inherit;
+       font-size: 20px;
+       width: 500px;
+      
+    }
+    
+    
+    .loginbackback{
+      border-width: 0px;
+      color:white;
+    }
+    
+    
+    
+    
+    .signupbasic{
+      height:400px;
+      width:500px;
+    margin-left:30%;
+      margin-top:8%;
+      position:fixed;
+    
+    
+      color:white;
+      text-align: center;
+    
+    }
+    
+    .signupback{
+     
+      text-align:center;
+        float: inherit;
+       font-size: 20px;
+       width: 500px;
+      
+    }
+    .signupbackback{
+       border-width: 0px;
+       color:white;
+    }
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    
 </head>
 
 <body>
-    <div class="header">
- 
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <img src="logoorg.png" class="bi me-2" width="240px" height="100px"/>
+      <span class="fs-4" id="helping-bridge">HELPING BRIDGE</span>
+    </a>
 
-    
-        <img class="logo" src="./logoorg.png" alt="Mother_Teresa" width="300px" height="100px"/>
-       
-        <a href="./index.html"><button><h1 class="homebutton">HOME</h1></button></a>
-     
-            <a href="./login.html"><button><h1 class="loginbutton">LOGIN</h1></button></a>
-            
-            <a href="./signup.html"><button><h1 class="signupbutton">SIGN UP</h1></button></a>
-            <a href="feedback.html"><button><h1 class="feedbackbutton">FEEDBACK</h1></button></a>
-    
-        </div>
-    
-<div class="hod">
-    <p class="donateplease">  🙏 DONATE    PLEASE  🙏</p>
-</div>
-<div class="donatedown">
-    <div class="donfood">
-        <p>DONATE EXCESS FOOD</p>
-        <a href="./clothes.html"><img src="./donateexcess.webp" width="320px" height="300px"/></a>
-    </div>
+    <ul class="nav nav-pills">
+      
+      <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">HOME</a></li>
+      <li class="nav-item"><a href="login.html" class="nav-link">LOGIN</a></li>
+      <li class="nav-item"><a href="signup.html" class="nav-link">SIGNUP</a></li>
+      <li class="nav-item"><a href="feedback.html" class="nav-link">FEEDBACK</a></li>
+         </ul>
+  </header>
   
-    <div class="money">
-      <p>MONEY DONATION</p>
-      <a href="./money.html"><img src="./donate-money-drawn.jpg" width="320px" height="300px"/></a>
-    </div>
-    <div class="grocery">
-        <p>GROCERY DONATION</p>
-        <a href="./grocery.html"><img src="./donate-grocery-dawn.webp" width="320px" height="300px"/></a>
-    </div>
-      <div class="clothes">
-        <p>CLOTHES DONATION</p>
-        <a href="./clothes.html"><img src="./donate-clothing-drawn.avif" width="320px" height="300px"/></a>
-    </div>
-    <div class="child">
-        <p>CHILD ADOPTION</p>
-        <a href="./adopt.html"><img src="./adopt.jpg" width="320px" height="300px"/></a>
-        
-    </div>
-    <div class="education">
-      <p>EDUCATION</p>
-      <a href="./education.html"><img src="./education.webp" width="320px" height="300px"/></a>
-    </div>
-    <div class="stationary">
-        <p>STATIONARY DONATION</p>
-        <a href="./stationary.html"><img src="./stationary.webp" width="320px" height="300px"/></a>
-    </div>
-    <div class="charity">
-        <p>FOOD TO CHARITY</p>
-        <a href="./foodtocharity.html"><img src="./foodtocharity.jpg" width="320px" height="300px"/></a>
-        
-    </div>
-    <div class="birthday">
-        <p>DONATE YOUR BIRTHDAY</p>
-        <a href="./birthday.html"><img src="./donatebir.jpeg" width="320px" height="300px"/></a>
-        
-    </div>
-   </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="adopt.jpg" class="card-img-top" alt="adopt" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">ADOPT A CHILD</h5>
+            <p class="card-text">"Adopting a child from an organization is not just providing a home; it's opening a heart and nurturing a future filled with love and endless possibilities."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="foodcharity.jpg" class="card-img-top" alt="donate">
+          <div class="card-body">
+            <h5 class="card-title">DONATE EXCESS FOOD</h5>
+            <p class="card-text">
+              "Sharing our surplus sustenance not only nourishes those in need but also fosters a community bound by compassion and humanity."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="education.webp" class="card-img-top" alt="education">
+          <div class="card-body">
+            <h5 class="card-title">PROVIDE EDUCATION TO A CHILD</h5>
+            <p class="card-text">Providing education to a child plants the seeds of knowledge and opportunity, cultivating a brighter future for generations to come.</p>
+          </div>
+        </div>
+      </div>
+      <br> <br>
+      <div class="col">
+          <div class="card">
+            <img src="donate-grocery-dawn.webp" class="card-img-top" alt="grocery">
+            <div class="card-body">
+              <h5 class="card-title">DONATE GROCERY</h5>
+              <p class="card-text">"Donating groceries is a gesture of kindness that nourishes bodies and souls, creating a stronger community where everyone feels cared for and supported."</p>
+            </div>
+          </div>
+        </div> <div class="col">
+          <div class="card">
+            <img src="stationary.webp" class="card-img-top" alt="stationary">
+            <div class="card-body">
+              <h5 class="card-title">DONATE STATIONARY</h5>
+              <p class="card-text">"Donating stationery equips minds with the tools to dream, create, and achieve, paving the way for a brighter and more educated future."</p>
+            </div>
+          </div>
+        </div> <div class="col">
+          <div class="card">
+            <img src="foodcharity.jpg" class="card-img-top" alt="foodtocharity" height="350px">
+            <div class="card-body">
+              <h5 class="card-title">FOOD CHARITY PROGRAM</h5>
+              <p class="card-text">"Conducting a food charity program nourishes both body and soul, fostering a sense of unity and compassion within the community."   </p>
+            </div>
+          </div>
+        </div> 
+        <br> <br><div class="col">
+          <div class="card">
+            <img src="donate-clothing-drawn.avif" class="card-img-top" alt="cloth">
+            <div class="card-body">
+              <h5 class="card-title">DONATE CLOTHES</h5>
+              <p class="card-text">"Donating clothes offers warmth and dignity to those in need, wrapping them in the comfort of compassion and humanity.    "</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="donate-money-drawn.jpg" class="card-img-top" alt="education">
+            <div class="card-body">
+              <h5 class="card-title">DONATE MONEY</h5>
+              <p class="card-text">
+                  "Donating money empowers change, providing vital resources that transform lives and uplift communities.                          "</p>
+            </div>
+          </div>
+        </div>
+      <div class="col">
+        <div class="card">
+          <img src="donatebir.jpeg" class="card-img-top" alt="birthday" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">DONATE YOUR BIRTHDAY</h5>
+            <p class="card-text">"Turning your birthday into a gift for others spreads happiness and creates lasting change."   </p>
+          </div>
+        </div></div>
+      </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
 </body>
 </html>
