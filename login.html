@@ -10,56 +10,56 @@
     <title>Document</title>
     <style>
    
-   @media(max-width:400px)
+   @media(max-width:480px)
    {
     body{
       width:400px;
-      
-    background-image: url(mm.jpg);
+      height:800px;
+    background-image: url(www.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
     background-attachment:fixed;
-    position: static;
+    position:fixed;
   }
     .container{
         
-      width:200px;
+      width:300px;
   
-        
+        position:fixed;
      
         flex-direction:column;
-        margin-top:9%;
-        margin-left:-90px;
+        margin-top:2%;
+        margin-left:-3px;
         flex-shrink: 1;
         flex-grow: 1;
+        min-width:50px;
       }
       
       h4{
         color:aliceblue;
       }
         .item{
-      
-        flex:1 1 100px;
-         flex-basis: 100px;
-  
+          min-width:50px;
+        flex:1 1 300px;
+         flex-basis: 300px;
+  position:fixed;
         margin-left:0px;
         }
    }
       .container{
         
-        background-image: url(mm.jpg);
+        background-image: url(www.jpg);
     background-repeat: no-repeat;
-    background-size: 91.5% 90%;
+    background-size: 100% 100%;
   
     background-attachment:fixed;
     position:relative;
         display:flex;
        border-width: 2px;
         gap:10px;
-        align-items: center;
-        justify-content: center;
-        width:400px;
+      
+        width:1400px;
         flex-direction:column;
         margin-top:2%;
         margin-left:35%;
@@ -76,14 +76,17 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
+        width:1400px;
         }
         .item-2{
+          align-items: center;
+
           border-width:1px;
           border-color: rgb(0, 0, 0);
           background-color: aqua;
         }
   body{
-    background-image: url(mm.jpg);
+    background-image: url(www.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
@@ -117,7 +120,7 @@
                 </div>
               
                 <div class="item-1">
-                  <input type="button"  class="item-2" value="SIGN UP"/>
+                  <input type="button"  class="item-2" value="LOGIN"/>
                 
                  </div>
               </div>
