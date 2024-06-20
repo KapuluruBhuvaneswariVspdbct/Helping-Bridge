@@ -10,17 +10,17 @@
     <title>Document</title>
     <style>
    
-   @media(max-width:350px)
+   @media(max-width:500px)
    {
     body{
-      width:6%;
+      width:20%;
      
     background-image: url(www.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
     background-attachment:fixed;
-   
+    position: static;
   }
     .container{
         
@@ -29,7 +29,7 @@
         
      
         flex-direction:column;
-        margin-top:2%;
+        margin-top:10%;
         margin-left:-3px;
         flex-shrink: 1;
         flex-grow: 1;
@@ -53,7 +53,7 @@
     background-size: 91.5% 90%;
   
     background-attachment:fixed;
-    position:static;
+    position:relative;
         display:flex;
        border-width: 2px;
         gap:10px;
@@ -61,7 +61,7 @@
         justify-content: center;
         width:400px;
         flex-direction:column;
-        margin-top:2%;
+        margin-top:5%;
         margin-left:35%;
       }
       
@@ -116,11 +116,7 @@
                 <input type="password" >
                 </div>
                 <div class="item-1">
-                  <label for="PASSWORD" ><h4>CONFIRM-PASSWORD : </h4></label>
-                  <input type="password" >
-                  </div>
-                <div class="item-1">
-                  <input type="button"  class="item-2" value="SIGN UP"/>
+                  <input type="button"  class="item-2" value="LOGIN"/>
                 
                  </div>
               </div>
