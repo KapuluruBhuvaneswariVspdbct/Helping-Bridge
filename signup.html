@@ -20,13 +20,13 @@
     background-size: 48% 80%;
   
     background-attachment:fixed;
-    
+    position:static;
   }
     .container{
         
       width:300px;
   
-        position:static;
+        position:relative;
         align-items: center;
         justify-content: center;
         flex-direction:column;
@@ -41,19 +41,19 @@
         color:aliceblue;
       }
         .item{
-      
-          width:150px;
+          align-items: center;
+          justify-content: center;
+          min-width:50px;
         flex:1 1 300px;
          flex-basis: 300px;
-  position:relative;
-        margin-left:30px;
+  position:fixed;
+        margin-left:0px;
         }
    }
       .container{
         
    
-        align-items: center;
-        justify-content: center;
+   
     position:relative;
         display:flex;
        border-width: 2px;
@@ -72,8 +72,7 @@
       
         flex:1 1 300px;
          flex-basis: 500px;
-         align-items: center;
-         justify-content: center;
+         
         width:1400px;
         }
         .item-2{
