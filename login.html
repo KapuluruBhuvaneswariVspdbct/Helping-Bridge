@@ -10,55 +10,58 @@
     <title>Document</title>
     <style>
    
-   @media(max-width:480px)
+   @media(max-width:500px)
    {
     body{
-      width:600px;
-      height:1000px;
+      width:20%;
+     
     background-image: url(www.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
     background-attachment:fixed;
-    position:fixed;
+    position: static;
   }
     .container{
         
-      width:300px;
-      align-items: center;
-      justify-content: center;
-        position:fixed;
+      width:100px;
+  
+        
      
         flex-direction:column;
         margin-top:5%;
         margin-left:-3px;
         flex-shrink: 1;
         flex-grow: 1;
-        min-width:50px;
       }
       
       h4{
         color:aliceblue;
       }
         .item{
-          min-width:50px;
-        flex:1 1 300px;
-         flex-basis: 300px;
-  position:fixed; align-items: center;
-  justify-content: center;
+      
+        flex:1 1 100px;
+         flex-basis: 100px;
+  
         margin-left:0px;
         }
    }
       .container{
-       
+        
+        background-image: url(www.jpg);
+    background-repeat: no-repeat;
+    background-size: 91.5% 90%;
+  
+    background-attachment:fixed;
     position:relative;
         display:flex;
        border-width: 2px;
         gap:10px;
-      
-        width:1400px;
+        align-items: center;
+        justify-content: center;
+        width:400px;
         flex-direction:column;
-        margin-top:2%;
+        margin-top:5%;
         margin-left:35%;
       }
       
@@ -73,11 +76,8 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
-        width:1400px;
         }
         .item-2{
-          align-items: center;
-
           border-width:1px;
           border-color: rgb(0, 0, 0);
           background-color: aqua;
@@ -88,7 +88,7 @@
     background-size: 100% 100%;
   
     background-attachment:fixed;
-   
+    position: static;
   }
       
     </style>
@@ -115,7 +115,6 @@
                 <label for="PASSWORD" ><h4>PASSWORD : </h4></label>
                 <input type="password" >
                 </div>
-              
                 <div class="item-1">
                   <input type="button"  class="item-2" value="LOGIN"/>
                 
