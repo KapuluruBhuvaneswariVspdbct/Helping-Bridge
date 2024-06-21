@@ -9,14 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      .item-9{
+        display: flex;
+        
+      }
       .item-k{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        color:rgb(14, 0, 96);
-       text-decoration-color:rgb(14, 0, 96);
-       text-decoration-line: underline;
-       
+
       }
       #forget{
         align-items:start;
@@ -26,9 +25,12 @@
     .items{
       display:flex;
       flex-direction:column;
+     
+    
     }
-  
- .p{
+    
+ 
+  .p{
   background-image: url(www.jpg);
     background-repeat: no-repeat;
     background-size: 91.5% 90%;
@@ -38,13 +40,15 @@
     border-bottom: 1px;
     border-style: ridge;
     border-color: rgb(80, 80, 80);
+ 
  }
     .item-div{
       display:flex;
       flex-direction: row;
-         align-items: center;
-         justify-content: center;
-          gap:65px;
+    
+      justify-content: center;
+      align-items: center;
+          gap:55px;
     }
    
       .container{
@@ -52,19 +56,23 @@
         background-image: url(www.jpg);
     background-repeat: no-repeat;
     background-size: 91.5% 90%;
-   background-blend-mode:darken;
+  
     background-attachment:fixed;
- 
+   
         display:grid;
-        grid-template-columns:400px;
-        grid-template-rows:60px 90px 90px 90px 90px 100px;
+        grid-template-columns:350px;
+        grid-template-rows:80px 90px 80px  70px 70px;
         
         gap:0px;
-        align-items: center;
+    
+        width:400px;
+            align-items: center;
         justify-content: center;
-        width:500px;
-       
-      height: 100vh;
+       align-content: center;
+       justify-items: center;
+       height: 100vh;
+      justify-content: center;
+      align-items: center;
         
       }
       
@@ -76,6 +84,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
+       
         }
         .item-2{
           border-width:1px;
@@ -88,7 +97,7 @@
     background-size: 100% 100%;
   
     background-attachment:fixed;
-   
+
   }
       
     </style>
@@ -96,20 +105,16 @@
   
    </head>
 <body>
- <div class="container col-md-12 col-sm-7 col-lg-5">
+ <div class="container col-md-5 col-sm-10 col-lg-5">
                 <div class="item-k">
                       
-                  <h1><bold>SIGN-UP</bold></h2> 
+                  <h1>SIGN-UP</h1>
                 </div>  
-              
-                  <div class="item-1">
-                    <br>
-                <label for="NAME"><h4>USER NAME:</h4></label>
-                <input type="text" class="p" >
-                </div>
                 
+                  
+
                 <div class="item-1">
-                <label for="EMAIL  ID" ><h4> EMAILID :</h4></label>
+                <label for="EMAIL  ID" ><h4> EMAIL-ID :</h4></label>
                 <input type="email"  class="p">
                 </div> 
 
@@ -118,22 +123,24 @@
                 <input type="password" class="p" >
                 </div>
                 <div class="item-1">
-                  <label for="PASSWORD"  ><h5>CONFIRM <BR>PASSWORD : </h5></label>
+                  <label for="PASSWORD"  ><h5>CONFIRM<BR> PASSWORD : </h5></label>
                   <input type="password" class="p" >
                   </div>
                
-                <div class="item-div">
-                 <div class="items-1">
-
-                  <a href="forget.html" id="forget" class="items-3">forget password</a>
-                
-                      </div>
-                   <div>
-                    <input type="button"  class="items-2" value="CREATE ACCOUNT"/>
+                  <div>
+                   <center><input type="button"  class="items-2" value="CREATE ACCOUNT"/></center> 
                    </div>
+                   <div class="item-div">
                  
-                  </div>
 
+                      
+                    <div class="item-9">
+                      <a href="create.html">already have an account?login</a>
+                    
+                       </div>
+                     
+                   
+                    </div>
              </div>
         
         
